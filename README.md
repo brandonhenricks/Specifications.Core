@@ -28,8 +28,5 @@ Install-Package Specifications.Core
 ### Creating the RestRequest manually:
 
 ```csharp
-var settings = new ApiSettings("host","accountsid","authtoken");
-var client = new TempWorksClient(settings);
-var request = new RestRequest("users", Method.GET);
-var result = client.Execute<User>(request);
+var specification = new Specification<User>(x => x.Active);
 ```
