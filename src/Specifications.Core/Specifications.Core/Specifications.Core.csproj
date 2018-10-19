@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Company>Madison Resources</Company>
+    <Company>Brandon Henricks</Company>
     <Authors>Brandon Henricks</Authors>
     <Description>Base Specification Library.</Description>
     <Copyright>2018</Copyright>
