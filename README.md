@@ -18,10 +18,7 @@ Install-Package Specifications.Core
 ## Usage:
 
 1. Install package from Nuget.
-2. Create an ApiSettings class that contains your authorization details.
-3. Instantiate a new client.
-4. Create a RestRequest.
-5. Execute the RestRequest.
+2. Create a specification around your Use Case.
 
 ## Examples:
 
